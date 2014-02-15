@@ -1,0 +1,31 @@
+h1
+{
+text-align:center;
+background-image:url('back.jpg');
+background-size:100%;
+font-family:Earwig Factory,chiller,verdana;
+font-size:40px; 
+}
+body
+{/*
+	background-image:url('back.jpg');
+	background-repeat:repeat-y;
+	background-position:center center;
+	background-attachment:fixed;
+	background-size:100%;
+	
+
+*/
+}
+
+
+#wrapper {
+	background-color: #E4E4E4;
+	float:left;
+	width: 960px;
+	padding: 20px;
+	clear: both;
+	alignment-adjust:middle;
+	alignment-baseline:middle;
+	margin-left:20%;
+}

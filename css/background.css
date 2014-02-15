@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Share:700);
+
+
+@-webkit-keyframes slideright {
+  from		{ background-position: left; }
+to			{ background-position: right; }
+}
+@-webkit-keyframes slideleft {
+  from		{ background-position: right; }
+to			{ background-position: left; }
+}
+@keyframes slideright {
+  from		{ background-position: left; }
+to			{ background-position: right; }
+}
+@keyframes slideleft {
+  from		{ background-position: right; }
+to			{ background-position: left; }
+}
+
+.sliders {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8; 
+  background: #000;
+}
+
+.rows {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.rows .row {
+  width: 200%;
+  height: 100px;
+  -webkit-animation: slide 100s linear infinite;
+  animation: slide 100s linear infinite;
+  background: repeat-x;
+}
+/* All row images are 1500px by 100px */
+.rows .row.row-1 {
+  background-image: url('http://thunderwave.net/vinylchan/row/1.png');
+  -webkit-animation-name: slideleft;
+  animation-name: slideleft;
+}
+
+.rows .row.row-2 {
+  background-image: url('http://thunderwave.net/vinylchan/row/4.png');
+  -webkit-animation-name: slideright;
+  animation-name: slideright;
+}
+
+.rows .row.row-3 {
+  background-image: url('http://thunderwave.net/vinylchan/row/2.png');
+  -webkit-animation-name: slideleft;
+  animation-name: slideleft;
+}
+
+.rows .row.row-4 {
+  background-image: url('http://thunderwave.net/vinylchan/row/3.png');
+  -webkit-animation-name: slideright;
+  animation-name: slideright;
+}
+
+.rows .row.row-5 {
+  background-image: url('http://thunderwave.net/vinylchan/row/3.png');
+  -webkit-animation-name: slideleft;
+  animation-name: slideleft;
+}
+
+.rows .row.row-6 {
+  background-image: url('http://thunderwave.net/vinylchan/row/4.png');
+  -webkit-animation-name: slideright;
+  animation-name: slideright;
+}
+
+.rows .row.row-7 {
+  background-image: url('http://thunderwave.net/vinylchan/row/2.png');
+  -webkit-animation-name: slideleft;
+  animation-name: slideleft;
+}
+
+.rows .row.row-8 {
+  background-image: url('http://thunderwave.net/vinylchan/row/1.png');
+  -webkit-animation-name: slideright;
+  animation-name: slideright;
+}
+
+#title {
+  font-family: share;
+  font-size:50pt;
+  margin-top: 10%;
+  margin-left: 20%;
+  color: white;
+  width:388px;
+}
+#title a {
+  color: white;
+}
+#title #sub {
+  font-size:20pt;
+}
+

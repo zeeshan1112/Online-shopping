@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+div.line {
+  margin: 5px 0px;
+  display: inline;
+}
+
+.nave {
+  position: relative;
+  display: inline-block;
+  left: 18%;
+  
+  margin-top:30px;
+  
+  
+ 
+  margin-bottom:70px;
+}
+
+.start {
+  border-radius: 5px 0 0 5px;
+}
+
+.mid {
+  border-radius: 1px;    
+}
+
+.end {
+  border-radius: 0 5px 5px 0;  
+}
+
+div.button1 {
+  position: relative;
+  color: #ffffff;
+  text-shadow: 0px -2px #558C89;
+  padding: 10px 25px;
+  font-size: 28px;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  background: #74AFAD;
+  border: solid 1px #558C89;
+  border-bottom: solid 10px #558C89;
+  box-shadow: 0 2px 10px rgba(1, 1, 1, 0.25);
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  transition:top 0.1s, border-bottom 0.1s, box-shadow 0.1s;
+}
+
+div.button1:hover {
+  top: 4px;
+  border-bottom: solid 6px #558C89;
+  box-shadow: 0 1px 10px rgba(1, 1, 1, 0.25);
+  
+  transition:top 0.1s, border-bottom 0.1s, box-shadow 0.1s; 
+}
+
+div.button1:active {
+  top: 9px;
+  border-bottom: solid 1px #558C89;
+  box-shadow: 0 0px 0px rgba(1, 1, 1, 0.25);
+  
+  transition:top 0.1s, border-bottom 0.1s, box-shadow 0.1s; 
+}
+#wrapper {
+	background-color: #E4E4E4;
+	float:left;
+	width: 960px;
+	padding: 20px;
+	clear: both;
+	alignment-adjust:middle;
+	alignment-baseline:middle;
+	margin-left:20%;
+}
